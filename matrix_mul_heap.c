@@ -38,18 +38,18 @@ int main(int argc, char *argv[])
     {
         for (int b = 0; b < N; b++)
         {
-            printf("%f ", matrix_a[a * N + b]);
+            //    printf("%f ", matrix_a[a * N + b]);
         }
-        printf("\n");
+        //printf("\n");
     }
     printf("\nMAT B \n");
     for (int a = 0; a < N; a++)
     {
         for (int b = 0; b < N; b++)
         {
-            printf("%f ", matrix_b[a * N + b]);
+            //    printf("%f ", matrix_b[a * N + b]);
         }
-        printf("\n");
+        //printf("\n");
     }
     //lets find the time spent to multiply A and B
     clock_t begin = clock();
